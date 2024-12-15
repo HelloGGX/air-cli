@@ -1,0 +1,23 @@
+{
+  "name": "air-cli",
+  "version": "1.0.0",
+  "description": "脚手架工具",
+  "main": "index.js",
+  "bin": {
+    "air-cli": "bin/air-cli"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^12.2.0",
+    "ora": "^8.1.1",
+    "semver": "^7.6.3"
+  }
+}
